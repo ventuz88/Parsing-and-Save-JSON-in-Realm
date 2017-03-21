@@ -5,9 +5,9 @@ target 'RxSwift-Init' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for RxSwift-Init
-  #pod 'RxSwift',    '~> 3.0'
-  #pod 'RxCocoa',    '~> 3.0'
+  # Pods for RxSwift
+  pod 'RxSwift',    '~> 3.0'
+  pod 'RxCocoa',    '~> 3.0'
 
   # JSON Parser
   pod 'Freddy'
