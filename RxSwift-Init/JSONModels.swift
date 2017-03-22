@@ -14,7 +14,6 @@ extension Results {
 }
 
 
-// 1
 class DataWeather: Object, JSONDecodable {
     dynamic var data: String = "0"
 
@@ -39,7 +38,6 @@ class DataWeather: Object, JSONDecodable {
 }
 
 
-// 2
 class WeatherResponse: Object, JSONDecodable  {
     
     dynamic var id: String? = ""
@@ -63,7 +61,6 @@ class WeatherResponse: Object, JSONDecodable  {
     }
 }
 
-// 3
 class Forecast: Object, JSONDecodable {
    
     dynamic var day: String? = nil

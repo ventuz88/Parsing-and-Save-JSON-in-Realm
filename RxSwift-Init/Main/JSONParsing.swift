@@ -11,7 +11,6 @@ struct JSONParsing {
     
     /// From LocalDatastore
     static func testJSONFromLocal(jsonData: Data, completion: @escaping (_ result: Bool) -> Void) {
-        
         do {
             let json = try JSON(data: jsonData)
             

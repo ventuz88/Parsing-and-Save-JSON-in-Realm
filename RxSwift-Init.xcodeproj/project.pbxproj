@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		40DCECFA1E7D4639008D787F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DCECF91E7D4639008D787F /* AppDelegate.swift */; };
-		40DCECFC1E7D4639008D787F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DCECFB1E7D4639008D787F /* ViewController.swift */; };
 		40DCECFF1E7D4639008D787F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DCECFD1E7D4639008D787F /* Main.storyboard */; };
 		40DCED011E7D4639008D787F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DCED001E7D4639008D787F /* Assets.xcassets */; };
 		40DCED041E7D4639008D787F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DCED021E7D4639008D787F /* LaunchScreen.storyboard */; };
@@ -18,6 +17,10 @@
 		5B003D981E7EC8E90067EDF1 /* weather_forecast_50000.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B003D941E7EC8E90067EDF1 /* weather_forecast_50000.json */; };
 		5B69CF791E7EDBBB00F393B9 /* RealmQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69CF781E7EDBBB00F393B9 /* RealmQuery.swift */; };
 		5B69CF7B1E7EDD9E00F393B9 /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69CF7A1E7EDD9E00F393B9 /* JSONParsing.swift */; };
+		5B9485D51E831FFD004EA584 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9485D41E831FFD004EA584 /* Storyboards.swift */; };
+		5B9485D71E832047004EA584 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9485D61E832047004EA584 /* Main.swift */; };
+		5B9485DA1E8325BE004EA584 /* RxURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9485D91E8325BE004EA584 /* RxURLSession.swift */; };
+		5B9485DC1E8325DD004EA584 /* RxURLSession.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9485DB1E8325DD004EA584 /* RxURLSession.storyboard */; };
 		5CDD763D627EE4E806F634AD /* JSONModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD7821B2405CC1A982CD97 /* JSONModels.swift */; };
 		5CDD77781C1318FE95FCC1B4 /* RealmUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD7A7ED7E66E11E56993C0 /* RealmUtils.swift */; };
 		A5FAA80739D1802DC8880968 /* Pods_RxSwift_Init.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FCFB785785B64E7457E5BD /* Pods_RxSwift_Init.framework */; };
@@ -27,7 +30,6 @@
 		295E773F942F44776105A7B1 /* Pods-RxSwift-Init.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Init.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-Init/Pods-RxSwift-Init.debug.xcconfig"; sourceTree = "<group>"; };
 		40DCECF61E7D4639008D787F /* RxSwift-Init.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-Init.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40DCECF91E7D4639008D787F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40DCECFB1E7D4639008D787F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40DCECFE1E7D4639008D787F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40DCED001E7D4639008D787F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40DCED031E7D4639008D787F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +40,10 @@
 		5B003D941E7EC8E90067EDF1 /* weather_forecast_50000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = weather_forecast_50000.json; path = JSON/weather_forecast_50000.json; sourceTree = "<group>"; };
 		5B69CF781E7EDBBB00F393B9 /* RealmQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RealmQuery.swift; path = Main/RealmQuery.swift; sourceTree = "<group>"; };
 		5B69CF7A1E7EDD9E00F393B9 /* JSONParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONParsing.swift; path = Main/JSONParsing.swift; sourceTree = "<group>"; };
+		5B9485D41E831FFD004EA584 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		5B9485D61E832047004EA584 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Main.swift; path = Main/Main.swift; sourceTree = "<group>"; };
+		5B9485D91E8325BE004EA584 /* RxURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxURLSession.swift; path = RxURLSession/RxURLSession.swift; sourceTree = "<group>"; };
+		5B9485DB1E8325DD004EA584 /* RxURLSession.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RxURLSession.storyboard; path = RxURLSession/RxURLSession.storyboard; sourceTree = "<group>"; };
 		5CDD7821B2405CC1A982CD97 /* JSONModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONModels.swift; sourceTree = "<group>"; };
 		5CDD7A7ED7E66E11E56993C0 /* RealmUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmUtils.swift; sourceTree = "<group>"; };
 		C66355D753BB26053228ED2B /* Pods-RxSwift-Init.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-Init.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-Init/Pods-RxSwift-Init.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,11 +92,13 @@
 			isa = PBXGroup;
 			children = (
 				40DCECF91E7D4639008D787F /* AppDelegate.swift */,
-				5B69CF761E7EDB2100F393B9 /* Main */,
+				5B69CF761E7EDB2100F393B9 /* MainController */,
+				5B9485D81E832586004EA584 /* RxSwiftController */,
 				5B69CF771E7EDB3000F393B9 /* Models */,
 				5CDD71654A2EFE942927407C /* RealmUtils */,
 				5B003D901E7EC8D90067EDF1 /* JSON File For Testing */,
 				40DCED001E7D4639008D787F /* Assets.xcassets */,
+				5B9485D41E831FFD004EA584 /* Storyboards.swift */,
 				40DCED021E7D4639008D787F /* LaunchScreen.storyboard */,
 				40DCED051E7D4639008D787F /* Info.plist */,
 			);
@@ -108,15 +116,15 @@
 			name = "JSON File For Testing";
 			sourceTree = "<group>";
 		};
-		5B69CF761E7EDB2100F393B9 /* Main */ = {
+		5B69CF761E7EDB2100F393B9 /* MainController */ = {
 			isa = PBXGroup;
 			children = (
 				40DCECFD1E7D4639008D787F /* Main.storyboard */,
-				40DCECFB1E7D4639008D787F /* ViewController.swift */,
+				5B9485D61E832047004EA584 /* Main.swift */,
 				5B69CF7A1E7EDD9E00F393B9 /* JSONParsing.swift */,
 				5B69CF781E7EDBBB00F393B9 /* RealmQuery.swift */,
 			);
-			name = Main;
+			name = MainController;
 			sourceTree = "<group>";
 		};
 		5B69CF771E7EDB3000F393B9 /* Models */ = {
@@ -125,6 +133,15 @@
 				5CDD7821B2405CC1A982CD97 /* JSONModels.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		5B9485D81E832586004EA584 /* RxSwiftController */ = {
+			isa = PBXGroup;
+			children = (
+				5B9485DB1E8325DD004EA584 /* RxURLSession.storyboard */,
+				5B9485D91E8325BE004EA584 /* RxURLSession.swift */,
+			);
+			name = RxSwiftController;
 			sourceTree = "<group>";
 		};
 		5C7C62C1BA6F7B1B8B230275 /* Pods */ = {
@@ -214,6 +231,7 @@
 				5B003D961E7EC8E90067EDF1 /* weather_forecast_1000.json in Resources */,
 				5B003D951E7EC8E90067EDF1 /* weather_forecast_100.json in Resources */,
 				5B003D971E7EC8E90067EDF1 /* weather_forecast_10000.json in Resources */,
+				5B9485DC1E8325DD004EA584 /* RxURLSession.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +291,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B69CF7B1E7EDD9E00F393B9 /* JSONParsing.swift in Sources */,
-				40DCECFC1E7D4639008D787F /* ViewController.swift in Sources */,
 				40DCECFA1E7D4639008D787F /* AppDelegate.swift in Sources */,
 				5B69CF791E7EDBBB00F393B9 /* RealmQuery.swift in Sources */,
 				5CDD763D627EE4E806F634AD /* JSONModels.swift in Sources */,
+				5B9485D71E832047004EA584 /* Main.swift in Sources */,
 				5CDD77781C1318FE95FCC1B4 /* RealmUtils.swift in Sources */,
+				5B9485DA1E8325BE004EA584 /* RxURLSession.swift in Sources */,
+				5B9485D51E831FFD004EA584 /* Storyboards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
